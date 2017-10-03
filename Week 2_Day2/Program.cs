@@ -51,12 +51,27 @@ namespace Week_2_Day2
             //    Console.WriteLine(month);
             //}
 
-            string[] bands = { "Neil Young", "The Kinks", "The Magnetic Fields", "A Tribe Called Quest", "Those Darlins" };
+            //string[] bands = { "Neil Young", "The Kinks", "The Magnetic Fields", "A Tribe Called Quest", "Those Darlins" };
 
-            foreach (string lalalala in bands)
+            //foreach (string lalalala in bands)
+            //{
+            //    Console.WriteLine(lalalala);
+            //}
+
+            string[] favFoods = { "Pizza", "Cake", "Pasta", "Ice Cream", "Candy in General", "Stuffed Peppers" };
+
+            foreach (string food in favFoods)
             {
-                Console.WriteLine(lalalala);
+                Console.WriteLine(food);
             }
+
+            int[] luckyNumbers = { 4, 5, 77, 99, 105, 44, 2, 1, 9 };
+
+            foreach (int number in luckyNumbers)
+            {
+                Console.WriteLine("Your Lucky Number is: " + number);
+            }
+
 
         }
     }
