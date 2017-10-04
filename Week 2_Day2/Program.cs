@@ -101,23 +101,72 @@ namespace Week_2_Day2
             //    Console.WriteLine("Would you like to check into your appointment (YES/NO)");
             //    checkIn = Console.ReadLine().ToUpper().Trim();
 
-            string playAgain;
+            //string playAgain;
 
-            do
+            //do
+            //{
+            //    Console.WriteLine("Great game!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //    playAgain = Console.ReadLine().ToUpper();
+
+            //}
+            //while (playAgain == "YES");
+
+            //Console.WriteLine("Thanks for playing the game!");
+
+            //string gpaAnswer;
+            //string letterGrade;
+            //string anotherClass;
+            //string salesPush;
+
+            //do
+            //{
+            //    Console.WriteLine("Which class would you like to add to your GPA?");
+            //    gpaAnswer = Console.ReadLine().ToUpper().Trim();
+            //    Console.WriteLine("What is your letter grade for the class? (disregard + or -)");
+            //    letterGrade = Console.ReadLine().ToUpper().Trim();
+            //    Console.WriteLine("Do you have another class your would like to add to your GPA?");
+            //    anotherClass = Console.ReadLine().ToUpper().Trim();
+            //}
+            //while (anotherClass == "YES");
+
+            //Console.WriteLine("Maybe you should take some more classes then. You can sign up here");
+            //salesPush = Console.ReadLine().ToUpper().Trim();
+            //    if (salesPush != "ab")
+            //{
+            //    Console.WriteLine("We have mailed the catalog to your address");
+            //}
+
+            //for (int i = 1; i < 20; i++)
+            //{
+            //    if (i % 13 == 0)
+            //    {
+            //        break;
+            //    }
+            //            Console.WriteLine(i);
+            //        }
+            //Console.WriteLine("The loop has been finished");
+
+            // nested loops below
+
+            //for (int i = 1; i <= 7; i++)
+            //{
+            //    for (int j = 1; j <= 8; j++)
+            //    {
+            //        Console.Write(j); // columns
+            //    }
+            //    Console.WriteLine(); // next row
+            //}
+
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                Console.WriteLine("Great game!");
-                Console.WriteLine("Do you want to play again? (YES/NO)");
-                playAgain = Console.ReadLine().ToUpper();
-
+                for (int col = 1; col <= row; col++)
+                {
+                    Console.Write(col + " ");
+                }
+                Console.WriteLine();
             }
-            while (playAgain == "YES");
-
-            Console.WriteLine("Thanks for playing the game!");
-
-
-
-           
-
         }
     }
 }
